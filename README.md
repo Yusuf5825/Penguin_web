@@ -2,6 +2,9 @@
 
 Bu proje, Palmer Penguenleri veri seti kullanılarak geliştirilmiş, 3 farklı penguen türünü (Adelie, Chinstrap, Gentoo) fiziksel anatomik özelliklerine göre sınıflandıran **PyTorch** tabanlı bir Derin Öğrenme (Deep Learning) modelidir. Proje aynı zamanda **Flask** ile geliştirilmiş, Glassmorphism tasarım diline sahip modern bir web arayüzü içermektedir.
 
+## 🗃️ Dataset:
+   https://www.kaggle.com/datasets/parulpandey/palmer-archipelago-antarctica-penguin-data?select=penguins_size.csv
+
 ## 🧠 Model Mimarisi ve Hiperparametreler
 Model, doğrusal olmayan karmaşık ilişkileri öğrenebilmesi için ardışık (Sequential) tam bağlantılı (Fully Connected) katmanlardan oluşturulmuştur:
 - **Girdi Katmanı:** 4 Özellik (Gaga Uzunluğu, Gaga Kalınlığı, Kanat Uzunluğu, Vücut Ağırlığı)
