@@ -60,4 +60,18 @@ Bu projeyi kendi bilgisayarınızda test etmek ve modern Flask arayüzünü dene
 **1. Repoyu Klonlayın:**
 ```bash
 git clone [https://github.com/KULLANICI_ADIN/DeepPenguin.git](https://github.com/KULLANICI_ADIN/DeepPenguin.git)
+
 cd DeepPenguin
+# Windows için
+python -m venv .venv
+.venv\Scripts\activate
+
+# Mac/Linux için
+python3 -m venv .venv
+source .venv/bin/activate
+
+#Kütüphane kurma
+pip install -r requirements.txt
+
+#Flask Başlatma
+python app.py
